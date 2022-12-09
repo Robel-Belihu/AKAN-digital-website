@@ -1,0 +1,256 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Joane";
+  src: url(./FONTS/HEADING/joane-bold.otf);
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url(./FONTS/BODY/FiraSans-Light.ttf);
+}
+@font-face {
+  font-family: "Nevrada Neue";
+  src: url(./FONTS/HEADING/Nevrada_Neue.otf);
+}
+
+.lines {
+  background-image: url("./components//data/files/Images/lines.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+@media only screen and (min-width: 1464px) {
+  .lines {
+    background-size: 100% 50%;
+  }
+}
+
+.analysisBg {
+  background-image: url("./components/data/files/Images/analysisBG.png");
+  background-size: cover;
+}
+.mapping {
+  background-image: url("./components/data/files/Images/mapping.png");
+  background-size: cover;
+}
+.consideration {
+  background-image: url("./components/data/files/Images/consideration.jpg");
+  background-size: cover;
+}
+.decision {
+  background-image: url("./components/data/files/Images/decision.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dotmap {
+  background-image: url("./components/data/files/Images/dotmap.png");
+  background-size: cover;
+}
+.feedback {
+  background-image: url("./components/data/files/Images/feedback.png");
+  background-size: cover;
+}
+.conclusion {
+  background-image: url("./components/data/files/Images/conclusion.png");
+  background-size: cover;
+}
+.analysisPageSec {
+  background-image: url("./components//data/files/Images/analysisPage2BG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.analysisPageFour {
+  background-image: url("./components//data/files/Images/about.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.text7,
+.text8,
+.text9,
+.text10,
+.text11,
+.text12,
+.text13,
+.text14,
+.text15,
+.text16,
+.text17,
+.text18,
+.text19,
+.text20,
+.text21,
+.text22,
+.text23,
+.text24,
+.text25,
+.text26,
+.text27,
+.text28,
+.text29,
+.text30,
+.text31,
+.text32,
+.text33,
+.text34,
+.text35,
+.text36,
+.text37,
+.text38,
+.text39,
+.text40,
+.text41,
+.text42,
+.text43,
+.text44,
+.text45,
+.text46 {
+  display: none;
+}
+.firstText:hover .text1 {
+  display: block;
+}
+
+.secondText:hover .text2 {
+  display: block;
+}
+
+.thirdText:hover .text3 {
+  display: block;
+}
+.fourthText:hover .text4 {
+  display: block;
+}
+.fifthText:hover .text5 {
+  display: block;
+}
+.sixthText:hover .text6 {
+  display: block;
+}
+.seventhText:hover .text7 {
+  display: block;
+}
+.eighthText:hover .text8 {
+  display: block;
+}
+.ninthText:hover .text9 {
+  display: block;
+}
+.tenthText:hover .text10 {
+  display: block;
+}
+.elevenText:hover .text11 {
+  display: block;
+}
+.twelveText:hover .text12 {
+  display: block;
+}
+.thirteenText:hover .text13 {
+  display: block;
+}
+.fourteenText:hover .text14 {
+  display: block;
+}
+.fifteenText:hover .text15 {
+  display: block;
+}
+.textSixteen:hover .text16 {
+  display: block;
+}
+.textSeventeen:hover .text17 {
+  display: block;
+}
+.textEightteen:hover .text18 {
+  display: block;
+}
+.textNineteen:hover .text19 {
+  display: block;
+}
+.textTwenty:hover .text20 {
+  display: block;
+}
+.textTwentOne:hover .text21 {
+  display: block;
+}
+.textTwentyTwo:hover .text22 {
+  display: block;
+}
+.textTwentyThree:hover .text23 {
+  display: block;
+}
+.textTwentyFour:hover .text24 {
+  display: block;
+}
+.textTwentyFive:hover .text25 {
+  display: block;
+}
+.textTwentySix:hover .text26 {
+  display: block;
+}
+.textTwentySeven:hover .text27 {
+  display: block;
+}
+.textTwentyEight:hover .text28 {
+  display: block;
+}
+.textTwentyNine:hover .text29 {
+  display: block;
+}
+.textThirty:hover .text30 {
+  display: block;
+}
+.textThirtyOne:hover .text31 {
+  display: block;
+}
+.textThirtyTwo:hover .text32 {
+  display: block;
+}
+.textThirtyThree:hover .text33 {
+  display: block;
+}
+.textThirtyFour:hover .text34 {
+  display: block;
+}
+.textThirtyFive:hover .text35 {
+  display: block;
+}
+.textThirtySix:hover .text36 {
+  display: block;
+}
+.textThirtySeven:hover .text37 {
+  display: block;
+}
+.textThirtyEight:hover .text38 {
+  display: block;
+}
+.textThirtyNine:hover .text39 {
+  display: block;
+}
+.textFourty:hover .text40 {
+  display: block;
+}
+.textFourtyOne:hover .text41 {
+  display: block;
+}
+.textFourtyTwo:hover .text42 {
+  display: block;
+}
+.textFourtyThree:hover .text43 {
+  display: block;
+}
+.textFourtyFour:hover .text44 {
+  display: block;
+}
+.textFourtyFive:hover .text45 {
+  display: block;
+}
+.textFourtySix:hover .text46 {
+  display: block;
+}
